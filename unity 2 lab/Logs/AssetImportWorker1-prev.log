@@ -1,0 +1,623 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59033
+Successfully changed project path to: /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main
+/Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 232.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555 (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555 (high power)
+1: Intel(R) HD Graphics 630 (low power)
+Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002930 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 212.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1230ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (917ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (213ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005545 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 287.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2663ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (635ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (234ms)
+			SetupLoadedEditorAssemblies (1445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (288ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (798ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (2.9 MB). Loaded Objects now: 7264.
+Memory consumption went from 286.9 MB to 284.0 MB.
+Total: 9.974728 ms (FindLiveObjects: 0.914386 ms CreateObjectMapping: 0.913324 ms MarkObjects: 6.561360 ms  DeleteObjects: 1.583733 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 121308.803818 seconds.
+  path: Assets/Scripts/InterfaceController.cs
+  artifactKey: Guid(a0aebda17491d0d43a03e6b8d4a79bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InterfaceController.cs using Guid(a0aebda17491d0d43a03e6b8d4a79bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd8c44102292d829ada22b4fe8ca90') in 5.733491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.112127 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(51f265581b2ce734bb302787d1821254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green.mat using Guid(51f265581b2ce734bb302787d1821254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabced98caf81da198740ba98b68f04c') in 54.999210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Scenes/SecondScene.unity
+  artifactKey: Guid(dceb1c92143b6db4a8bb006821c2a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SecondScene.unity using Guid(dceb1c92143b6db4a8bb006821c2a1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4fcd5095a6c275a1e049934625dc3e') in 0.001607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Prefabs/Token.prefab
+  artifactKey: Guid(5a82127edbca191418553504e8974917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Token.prefab using Guid(5a82127edbca191418553504e8974917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7b95ff336751be40a8ff5c0395774f') in 0.251998 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3491ms)
+		BeginReloadAssembly (391ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (68ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2884ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (944ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (220ms)
+			SetupLoadedEditorAssemblies (1195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (217ms)
+				ProcessInitializeOnLoadAttributes (871ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6488 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (2.8 MB). Loaded Objects now: 7417.
+Memory consumption went from 492.6 MB to 489.8 MB.
+Total: 8.899495 ms (FindLiveObjects: 0.868409 ms CreateObjectMapping: 1.129481 ms MarkObjects: 5.536940 ms  DeleteObjects: 1.363105 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.099287 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab
+  artifactKey: Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab using Guid(f6ce33b91f6ffe54cadacbf4bb112440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe07d8b3c307581d2d62eed3689e02') in 0.094219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab
+  artifactKey: Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab using Guid(b2da6b27df236b144b3516ed8e7d36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5355e8cf82395c875630c71b63bce0a') in 0.008954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab
+  artifactKey: Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab using Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792174af9a171d88cf90b9c6a5afc575') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
+  artifactKey: Guid(f6b1a0fe75d5009449cf55ae76220e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab using Guid(f6b1a0fe75d5009449cf55ae76220e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0fca9d81362e6ea008fed8625c5e00') in 0.012513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_AF08_DracaenaDraco_M.prefab
+  artifactKey: Guid(0cba7b77b4adadb4b83e5826074f14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_AF08_DracaenaDraco_M.prefab using Guid(0cba7b77b4adadb4b83e5826074f14ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2014b241bad0dc4191c6056a37a35e7') in 6.709860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb9a762eae840c7a3b212efcaf1d832') in 4.651141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_BS09_NeriumOleander_M.prefab
+  artifactKey: Guid(e2c2dd21facc4ce499c001d87973253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_BS09_NeriumOleander_M.prefab using Guid(e2c2dd21facc4ce499c001d87973253b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c896ea2064b71ca4aea7fc3b20153d') in 9.798749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_AF08_DracaenaDraco_Y_LOD1.fbx
+  artifactKey: Guid(38522932073c1b7438ff1eaaf50aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_AF08_DracaenaDraco_Y_LOD1.fbx using Guid(38522932073c1b7438ff1eaaf50aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd73b8cda8eb2a95a5964f8e79c17bdf') in 1.682397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat
+  artifactKey: Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat using Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525ed68af39928e494f7f6df790ab965') in 0.283784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/EmptyParticleSystem.vfx
+  artifactKey: Guid(b7261d938a155b74cb61a60a16d9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/EmptyParticleSystem.vfx using Guid(b7261d938a155b74cb61a60a16d9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6bbed8d7950f3dda02fa5df950f6b0') in 1.963768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/Material/GUITextureBlit2SRGB.mat
+  artifactKey: Guid(6e95c04e4e686554e8bed96ee69f690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipelineResources/Material/GUITextureBlit2SRGB.mat using Guid(6e95c04e4e686554e8bed96ee69f690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c309e8c6eaaa64a78effb0cd768c720') in 0.167871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_Y_LOD2.fbx
+  artifactKey: Guid(dd4c83b399c57f94fa78a9ff304d0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_Y_LOD2.fbx using Guid(dd4c83b399c57f94fa78a9ff304d0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a78ae26a6ce68a64ff978bcced11472') in 6.212014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/SimpleHeadsAndTrails.vfx
+  artifactKey: Guid(f0efff9416db4174984390120a80ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/SimpleHeadsAndTrails.vfx using Guid(f0efff9416db4174984390120a80ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Hidden/VFX/SimpleHeadsAndTrails/Trail Bodies/Output ParticleStrip Quad" requires a ComputeBuffer at index 4 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:110)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.7/Runtime/RenderPipeline/HDRenderPipeline.cs:1927)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipeline.cs:51)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:115)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/MaterialEditor.cs:2241)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/MaterialEditor.cs:2103)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '06cfac36a5ef9898413216b502ef4f93') in 1.541432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab
+  artifactKey: Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab using Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9230456c7c05aae8e4b1d8be79ca9495') in 0.083941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
+  artifactKey: Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab using Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4455d5fe063485965bd3d5aae3893057') in 0.010753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_M_LOD1.fbx
+  artifactKey: Guid(ca034e9b009c49a47a9ea52e642d3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_M_LOD1.fbx using Guid(ca034e9b009c49a47a9ea52e642d3c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b783d405990e799d3b9592b1efd70a5') in 5.291503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_M_LOD0.fbx
+  artifactKey: Guid(31a36ec8408d66548a74e29d4502329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_M_LOD0.fbx using Guid(31a36ec8408d66548a74e29d4502329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2917489e413e9ab989d6f4807b653a') in 14.493903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_EU01_Bark01.mat
+  artifactKey: Guid(57f1d19ea941a284fb36d9d99b624c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Maps/Mat/MI_EU01_Bark01.mat using Guid(57f1d19ea941a284fb36d9d99b624c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0489fd84e6504682a0e60563af1c6735') in 1.700814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_OC56_MelaleucaAlternifolia_M.prefab
+  artifactKey: Guid(f1a79b7c21e682047af9fa8949c191b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_OC56_MelaleucaAlternifolia_M.prefab using Guid(f1a79b7c21e682047af9fa8949c191b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddcbedaa57cb2b034a2111c2257c253') in 0.841365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDMirrorMaterial.mat
+  artifactKey: Guid(6b17274157b33bc45b6a40e7d4ff51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDMirrorMaterial.mat using Guid(6b17274157b33bc45b6a40e7d4ff51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9239a09b2256df62df38a7f5fd51f2c') in 0.321622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc848c7705cbc7804efa4a999b2a94e2') in 0.559855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_A_LOD2.fbx
+  artifactKey: Guid(dd03974238ff10c4e8ba062f0cc94ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_A_LOD2.fbx using Guid(dd03974238ff10c4e8ba062f0cc94ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1816f1ef48373a2dfbc82999195960') in 1.853920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7d840e6e7a439c577de1a04cdb2968') in 0.202619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_Y_LOD2.fbx
+  artifactKey: Guid(14acb554ac422eb4996bec0fa207679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_Y_LOD2.fbx using Guid(14acb554ac422eb4996bec0fa207679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e3e34cace652ac3a97b889b704c09c') in 1.598026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_BS09_NeriumOleander_M_LOD1.fbx
+  artifactKey: Guid(15c81b70bf92f4a49b2ccd627977b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_BS09_NeriumOleander_M_LOD1.fbx using Guid(15c81b70bf92f4a49b2ccd627977b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca58147a6ce74ef7cfad6a52ede3111') in 1.314156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_A_LOD1.fbx
+  artifactKey: Guid(ff340fa1b5b910e42aec3202d5c59896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_A_LOD1.fbx using Guid(ff340fa1b5b910e42aec3202d5c59896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538ec7fd4becb8e841bce0431298fe83') in 0.955326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daef9026425dcb76ecf1b545fb92301f') in 0.225859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.visualeffectgraph/Editor/Templates/SimpleSwarmParticleSystem.vfx
+  artifactKey: Guid(b84f73c7c4a6c6443a3bfbb2f7a504f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualeffectgraph/Editor/Templates/SimpleSwarmParticleSystem.vfx using Guid(b84f73c7c4a6c6443a3bfbb2f7a504f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Hidden/VFX/SimpleSwarmParticleSystem/Swarm/Output Particle Quad" requires a ComputeBuffer at index 4 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:110)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.7/Runtime/RenderPipeline/HDRenderPipeline.cs:1927)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipeline.cs:51)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /Users/bokken/buildslave/unity/build/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:115)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/MaterialEditor.cs:2241)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/MaterialEditor.cs:2103)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'b340007c35d7bae6c509f052a24bd4c5') in 1.501817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/HumanEyeModel.fbx
+  artifactKey: Guid(bc7f614d61b9b2a49a9ca3530b20da5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/HumanEyeModel.fbx using Guid(bc7f614d61b9b2a49a9ca3530b20da5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1051d9245885eeacff4074feb4d6e8be') in 0.770605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall_Base.fbx
+  artifactKey: Guid(232ab27f257e8524eacc2e73daf536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/UnityBall_Base.fbx using Guid(232ab27f257e8524eacc2e73daf536f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39fe8ddc7d6fd5b7919dc4c6474781') in 0.393336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_A_LOD1.fbx
+  artifactKey: Guid(e92ee2d902b33a74dbd75a86e4f29e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_A_LOD1.fbx using Guid(e92ee2d902b33a74dbd75a86e4f29e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f585eaccefdcb07a46a3d50296557bc') in 2.903717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d2637793932363954a8a2746699f2') in 0.452440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_JA14_PhyllostachysNigraHenonis_A.prefab
+  artifactKey: Guid(6fdeddf5aab3c9a4395bc830b6db771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Prefabs/MESH_JA14_PhyllostachysNigraHenonis_A.prefab using Guid(6fdeddf5aab3c9a4395bc830b6db771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c1d906e76d23c4294c656b252d0628') in 0.480374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
+  artifactKey: Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab using Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609c824722dff2bb03b5818f83322adf') in 0.104919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_AF08_DracaenaDraco_Y_LOD0.fbx
+  artifactKey: Guid(69b803fb82d7bb24cb30469e403b57b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_AF08_DracaenaDraco_Y_LOD0.fbx using Guid(69b803fb82d7bb24cb30469e403b57b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892e880f4476a6a444d8130a0fdb715e') in 0.822439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_M_LOD2.fbx
+  artifactKey: Guid(56a8797fbfaaa7140be5d639fc580fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_M_LOD2.fbx using Guid(56a8797fbfaaa7140be5d639fc580fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ba357fc40824d56cfd48d7a0549053') in 4.665826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cee8fe56e7b386c2fea158022442193') in 0.313484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91442e9a7c8c944260175b9f0e6dc948') in 0.601390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_Y_LOD1.fbx
+  artifactKey: Guid(051d11cb4e14edd45bebd6de46f5d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_Y_LOD1.fbx using Guid(051d11cb4e14edd45bebd6de46f5d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774db9f57888805c0697fe52272ba12f') in 1.407066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_M_LOD2.fbx
+  artifactKey: Guid(272fdff97f795264ca101778b71c6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_M_LOD2.fbx using Guid(272fdff97f795264ca101778b71c6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2869ba0e2dc5aeb70a194545aa339dee') in 0.906342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_Y_LOD2.fbx
+  artifactKey: Guid(2bd8d2e4ccb70bb4892a8a799e1c82d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_Y_LOD2.fbx using Guid(2bd8d2e4ccb70bb4892a8a799e1c82d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92149f24cc406493e089acb8df7d5eac') in 0.948078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_M_LOD1.fbx
+  artifactKey: Guid(f5546c928ae18b24881bee7fdf481381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_CL04_CalocedrusDecurrens_M_LOD1.fbx using Guid(f5546c928ae18b24881bee7fdf481381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a90f1e1b2bd6f7adf060bcd5d02ed') in 0.495774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_BS09_NeriumOleander_A_LOD1.fbx
+  artifactKey: Guid(14eea4d901fcd334abdf087ef2541c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_BS09_NeriumOleander_A_LOD1.fbx using Guid(14eea4d901fcd334abdf087ef2541c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c389775636fa001a886f6f1a2870d02') in 1.640897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_Y_LOD1.fbx
+  artifactKey: Guid(a9c5185a9269efc41b960d4560c4f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_JA14_PhyllostachysNigraHenonis_Y_LOD1.fbx using Guid(a9c5185a9269efc41b960d4560c4f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20a3771021692f12c9ea79a661731dc') in 0.508048 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bohdanzhytnyk/Downloads/GameProgLab2IP94-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3446ms)
+		BeginReloadAssembly (446ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (90ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2787ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (849ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (1186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (860ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6506 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (2.8 MB). Loaded Objects now: 7553.
+Memory consumption went from 0.78 GB to 0.78 GB.
+Total: 11.800401 ms (FindLiveObjects: 1.145068 ms CreateObjectMapping: 1.303641 ms MarkObjects: 8.104700 ms  DeleteObjects: 1.245274 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.371867 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_A_LOD0.fbx
+  artifactKey: Guid(3613546fde64c7a4ea0990d274fca0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_A_LOD0.fbx using Guid(3613546fde64c7a4ea0990d274fca0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84e9727e708a8f7044fa18d055d19a2') in 2.135126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_Y_LOD0.fbx
+  artifactKey: Guid(d47612281a34c9a42bc279128b1f10e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_OC56_MelaleucaAlternifolia_Y_LOD0.fbx using Guid(d47612281a34c9a42bc279128b1f10e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a9679fec52c9d11c910a6390e72b4e') in 0.984339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_A_LOD2.fbx
+  artifactKey: Guid(83d12bd7404e5a4409421a80c90a46e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xfrog/2022 PBR XfrogPlants Sampler/Models/MESH_EU01_AcerCampestre_A_LOD2.fbx using Guid(83d12bd7404e5a4409421a80c90a46e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45416c92e813c3ba3d2b15d20ce0e32f') in 1.097431 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
